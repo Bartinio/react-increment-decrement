@@ -6,6 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
+.para {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #15a11c;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
