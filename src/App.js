@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Count from './components/Count';
+import Array from './components/Array';
 
 class App extends Component {
   state = {
@@ -23,6 +24,8 @@ class App extends Component {
             <button onClick={this.hendleClickPlus} className="btn"> + </button>
             <hr />
             <Count />
+            <hr />
+            <Array />
         </div>
       );
     } 
